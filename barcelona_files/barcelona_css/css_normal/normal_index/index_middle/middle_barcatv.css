@@ -1,0 +1,612 @@
+@font-face {
+    font-family: fcb-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-extra-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-light;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-semi-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-regular;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    resize: none;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+body {
+    width: 1920px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.barcelona_page {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_container {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle {
+    width: 1920px;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 128px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: inline-block;
+}
+.barcelona_page_middle_container {
+    width: 1920px;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle_barcatv {
+    width: 1920px;
+    height: 553px;
+    background-color: #181733;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcatv_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_barcatv_decorations {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_barcatv_decorations_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_barcatv_decorations_red {
+    width: 960px;
+    height: 4px;
+    background-color: #cd122d;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    left: 480px;
+}
+.barcelona_page_middle_barcatv_decorations_yellow {
+    width: 134px;
+    height: 16px;
+    background-color: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    right: 233.5px;
+}
+.barcelona_page_middle_barcatv_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 16px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_barcatv_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_barcatv_content_background {
+    width: 100%;
+    height: 100%;
+    background-color: #121121;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-y: hidden;    
+    overflow-x: hidden;
+    position: absolute;
+}
+.barcelona_page_middle_barcatv_content_background_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_barcatv_content_background_left {
+    width: 363px;
+    height: 110px;
+    background-image: url('../../../../../barcelona_images/images_index/index_middle/middle_barcatv/barcatv_leftbackground.png');
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    top: 0px;
+    left: -12px;
+}
+.barcelona_page_middle_barcatv_content_background_right {
+    width: 590px;
+    height: 90px;
+    background-image: url('../../../../../barcelona_images/images_index/index_middle/middle_barcatv/barcatv_rightbackground.png');
+    background-size: 23px 23px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: -32px;
+    right: -12px;
+}
+.barcelona_page_middle_barcatv_content_background_rightgradient {
+    width: 590px;
+    height: 90px;    
+    background-image: linear-gradient(180deg,rgba(18,17,33,.8),rgba(18,17,33,.3));
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: -32px;
+    right: -12px;
+}
+.barcelona_page_middle_barcatv_content_text {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 228px;
+    padding-right: 228px;
+    position: absolute;
+}
+.barcelona_page_middle_barcatv_content_text_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcatv_content_text_header {
+    width: 100%;
+    height: 59px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcatv_content_text_header_container {
+    width: 100%;
+    height: 59px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcatv_content_text_header_container svg {
+    width: 226px;
+    height: 54px;
+    fill: #fdc52c;
+}
+.barcelona_page_middle_barcatv_content_text_content {
+    width: 100%;
+    height: 422px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcatv_content_text_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcatv_content_text_content_list {
+    width: 100%;
+    height: 376.2px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcatv_content_text_content_list_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski {
+    width: 240px;
+    height: 342px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+/* .barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski:hover {
+    width: 264px;
+    height: 376.2px;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: -6px;
+    margin-right: -6px;
+    transition: 0.25s;
+} */
+.barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski_container {
+    width: 100%;
+    height: 100%;
+    background-image: url('../../../../../barcelona_images/images_index/index_middle/middle_barcatv/barcatv_robertlewandowski.jpg');
+    /* background-size: 100%; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski_gradient {
+    width: 228px;
+    height: 260px;
+    background-image: linear-gradient(180deg,rgba(10,9,39,0) 17%,#0e0e28 72%);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+.barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski_main {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski_main_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski_main_title {
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 52px;
+    color: #fdc52c;
+    font-size: 30px;
+    font-style: italic;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    line-height: 23.2px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski_main_videostats {
+    width: 100%;
+    height: 28px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    position: absolute;
+    bottom: 12px;
+}
+.barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski_main_videostats_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski_main_videostats_container svg {
+    width: 22px;
+    height: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 6px;
+    margin-right: 6px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    fill: white;
+}
+.barcelona_page_middle_barcatv_content_text_content_list_robertlewandowski_main_videostats_span {
+    fill: 12px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+    line-height: 14px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: px;
+}
+.barcelona_page_middle_barcatv_content_text_content_link {
+    width: 100%;
+    height: 45.8px;
+    background-color: silver;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}

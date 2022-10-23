@@ -1,0 +1,266 @@
+@font-face {
+    font-family: fcb-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-extra-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-light;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-semi-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-regular;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    resize: none;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+body {
+    width: 1920px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.barcelona_page {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_container {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle {
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 128px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: inline-block;
+}
+.barcelona_page_middle_container {
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle_partners {
+    width: 100%;
+    height: 105px;
+    background-color: #cd122d;    
+    background-image: linear-gradient(0deg, rgb(24, 23, 51) 0px, rgb(24, 23, 51) 30%, rgba(173, 16, 40, 0.5));
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_partners_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_partners_header {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 24px;
+    line-height: 36px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: 1px;
+    text-size-adjust: 100%;
+    text-align: center;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.barcelona_page_middle_partners_logo {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_partners_logo_nike {
+    width: 100px;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 28px;
+    padding-right: 0px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_partners_logo_nike_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+.barcelona_page_middle_partners_logo_nike_container svg {
+    fill: white;
+    height: 40px;
+    width: 72px;
+    opacity: 0.6;
+}
+.barcelona_page_middle_partners_logo_nike_container:hover svg {
+    opacity: 1;
+}
+.barcelona_page_middle_partners_logo_spotify {
+    width: 130px;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 28px;
+    padding-right: 0px;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_partners_logo_spotify_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_partners_logo_spotify_container svg {
+    fill: white;
+    height: 40px;
+    width: 110px;
+    opacity: 0.6;
+}
+.barcelona_page_middle_partners_logo_spotify_container:hover svg {
+    opacity: 1;
+}

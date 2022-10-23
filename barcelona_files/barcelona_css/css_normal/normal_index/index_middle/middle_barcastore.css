@@ -1,0 +1,1181 @@
+@font-face {
+    font-family: fcb-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-extra-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-light;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-semi-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-regular;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    resize: none;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+body {
+    width: 1920px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.barcelona_page {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_container {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle {
+    width: 1920px;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 128px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: inline-block;
+}
+.barcelona_page_middle_container {
+    width: 1920px;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle_barcastore {
+    width: 1920px;
+    height: 537.64px;
+    background-color: #181733;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_middle_barcastore_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 204px;
+    padding-right: 204px;
+}
+.barcelona_page_middle_barcastore_content {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: white;
+    border-bottom: 1px solid #efefef;
+}
+.barcelona_page_middle_barcastore_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 1px solid #efefef;
+}
+.barcelona_page_middle_barcastore_content_header {
+    width: 100%;
+    height: 74px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_header_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_barcastore_content_header_title {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_barcastore_content_header_title_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcastore_content_header_title_container span {
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 36px;
+    background-attachment: scroll;
+    background-clip: text;
+    background-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(90deg,#cd122d,#154284);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.barcelona_page_middle_barcastore_content_header_link {
+    width: 192.8px;
+    height: 32px;
+    background: #154284;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    right: 0;
+    top: 28px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 6px 1px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    transition: top 0.25s, background-image 0.25s;
+}
+.barcelona_page_middle_barcastore_content_header_link_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.barcelona_page_middle_barcastore_content_header_link_container span {
+    color: white;
+    font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 32px;
+    font-weight: 400;
+    display: block;
+}
+.barcelona_page_middle_barcastore_content_header_link_container svg {
+    fill: white;
+    height: 11px;
+    width: 11px;
+    margin-top: -2px;
+    margin-bottom: 0px;
+    margin-left: 2px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline-block;
+}
+.barcelona_page_middle_barcastore_content_header_link:hover {
+    top: 32px;
+    transition: top 0.25s, background-image 0.25s;
+    background: linear-gradient(230deg, #154284, #cd122d);
+}
+.barcelona_page_middle_barcastore_content_store {
+    width: 100%;
+    height: 389.64px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct {
+    width: 470px;
+    height: 381.641px;
+    background-color: transparent;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px 0px;
+    transition: box-shadow 0.25s;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;
+    transition: box-shadow 0.25s;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;        
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_banner {
+    width: 100%;
+    height: 185.64px;
+    background-color: burlywood;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_banner img {
+    width: 100%;
+    height: auto;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content {
+    width: 100%;
+    height: 196px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 21px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_line {
+    width: 100%;
+    height: 1px;
+    background-color: #efefef;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 26px;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_description {
+    width: 438px;
+    height: 160px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_left {
+    width: 121px;
+    height: 160px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 11px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_left img {
+    width: 110px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_right {
+    width: 317px;
+    height: 160px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    padding-left: 26px;
+    padding-right: 16px;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_right_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_right_header {
+    width: 100%;
+    height: 22px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_right_header span {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    display: block;
+    text-align: left;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_right_description {
+    width: 100%;
+    height: 18px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_right_description span {
+    color: #727272;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    line-height: 18px;
+    display: block;
+    text-align: left;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_right_link {
+    width: 100%;
+    height: 22px;
+    background-color: transparent;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_right_link_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_right_link_container span {
+    color: #154284;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    font-style: italic;
+    text-align: left;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+.barcelona_page_middle_barcastore_content_store_homeproduct_content_right_link_container svg {
+    width: 12px;
+    height: 12px;
+    fill: #154284;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct {
+    width: 470px;
+    height: 381.641px;
+    background-color: transparent;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px 0px;
+    transition: box-shadow 0.25s;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;
+    transition: box-shadow 0.25s;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;        
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_banner {
+    width: 100%;
+    height: 185.64px;
+    background-color: burlywood;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_banner img {
+    width: 100%;
+    height: auto;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content {
+    width: 100%;
+    height: 196px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 21px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_line {
+    width: 100%;
+    height: 1px;
+    background-color: #efefef;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 26px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_description {
+    width: 438px;
+    height: 160px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_left {
+    width: 121px;
+    height: 160px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 11px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_left img {
+    width: 110px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_right {
+    width: 317px;
+    height: 160px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    padding-left: 26px;
+    padding-right: 16px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_right_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_right_header {
+    width: 100%;
+    height: 22px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_right_header span {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    display: block;
+    text-align: left;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_right_description {
+    width: 100%;
+    height: 18px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_right_description span {
+    color: #727272;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    line-height: 18px;
+    display: block;
+    text-align: left;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_right_link {
+    width: 100%;
+    height: 22px;
+    background-color: transparent;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_right_link_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_right_link_container span {
+    color: #154284;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    font-style: italic;
+    text-align: left;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+.barcelona_page_middle_barcastore_content_store_awayproduct_content_right_link_container svg {
+    width: 12px;
+    height: 12px;
+    fill: #154284;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct {
+    width: 470px;
+    height: 381.641px;
+    background-color: transparent;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px 0px;
+    transition: box-shadow 0.25s;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;
+    transition: box-shadow 0.25s;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;        
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_banner {
+    width: 100%;
+    height: 185.64px;
+    background-color: burlywood;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_banner img {
+    width: 100%;
+    height: auto;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content {
+    width: 100%;
+    height: 196px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 21px;
+    padding-bottom: 15px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_line {
+    width: 100%;
+    height: 1px;
+    background-color: #efefef;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 26px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_description {
+    width: 438px;
+    height: 160px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_left {
+    width: 121px;
+    height: 160px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 11px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_left img {
+    width: 110px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_right {
+    width: 317px;
+    height: 160px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 9px;
+    padding-bottom: 0px;
+    padding-left: 26px;
+    padding-right: 16px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_right_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_right_header {
+    width: 100%;
+    height: 22px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_right_header span {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+    display: block;
+    text-align: left;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_right_description {
+    width: 100%;
+    height: 18px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_right_description span {
+    color: #727272;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22px;
+    line-height: 18px;
+    display: block;
+    text-align: left;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_right_link {
+    width: 100%;
+    height: 22px;
+    background-color: transparent;
+    margin-top: 16px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_right_link_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_right_link_container span {
+    color: #154284;
+    font-size: 14px;
+    font-weight: 400;
+    display: block;
+    font-style: italic;
+    text-align: left;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    text-transform: uppercase;
+}
+.barcelona_page_middle_barcastore_content_store_trainingproduct_content_right_link_container svg {
+    width: 12px;
+    height: 12px;
+    fill: #154284;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}

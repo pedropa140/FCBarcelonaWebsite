@@ -1,0 +1,2780 @@
+@font-face {
+    font-family: fcb-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-extra-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-light;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-semi-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-regular;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    resize: none;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+body {
+    width: 1920px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.barcelona_page {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_container {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle {
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 128px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: inline-block;
+}
+.barcelona_page_middle_container {
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle_firstteammatches {
+    width: 100%;
+    height: 494px;
+    background-color: #181733;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_middle_firstteammatches_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 204px;
+    padding-right: 204px;
+}
+.barcelona_page_middle_firstteammatches_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    padding-left: 34px;
+    padding-right: 34px;
+    background-color: white;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom: 1px solid #efefef;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_firstteammatches_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header {
+    width: 100%;
+    height: 56px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_firstteammatches_content_header_title {
+    width: 100%;
+    height: 100%;
+    position: absolute;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_title_container {
+    width: auto;
+    height: 100%;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_title_container h3 {
+    font-size: 36px;
+    width: 396.98px;
+    font-weight: 400;
+    align-items: left;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: linear-gradient(90deg,#cd122d,#154284);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+}
+.barcelona_page_middle_firstteammatches_content_header_title_container h3 span {
+    font-family: fcb-regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 36px;    
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_container span {
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    text-transform: uppercase;
+    color: #222222;
+    /* font-weight: 700; */
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 16px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer {
+    width: 259.44px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_container {
+    width: 259.44px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_day {
+    width: 64.86px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_day_timer {
+    width: 64.86px;
+    height: 40px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 44px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 40px;
+    text-align: center;
+    background: linear-gradient(90deg,#cd122d, #a71c3f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_day_label {
+    width: 64.86px;
+    height: 12px;
+    background-color: transparent;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_day_label span {
+    color: #727272;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_hour {
+    width: 64.86px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_hour_timer {
+    width: 64.86px;
+    height: 40px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 44px;
+    line-height: 40px;
+    text-align: center;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background: linear-gradient(90deg,#a71c3f,#712a59);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_hour_label {
+    width: 64.86px;
+    height: 12px;
+    background-color: transparent;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_hour_label span {
+    color: #727272;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_minute {
+    width: 64.86px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_minute_timer {
+    width: 64.86px;
+    height: 40px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 44px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 40px;
+    text-align: center;
+    background: linear-gradient(90deg,#712a59, #3a3872);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_minute_label {
+    width: 64.86px;
+    height: 12px;
+    background-color: transparent;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_minute_label span {
+    color: #727272;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_second {
+    width: 64.86px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_second_timer {
+    width: 64.86px;
+    height: 40px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 44px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 40px;
+    text-align: center;
+    background: linear-gradient(90deg,#3a3872, #154284);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_second_label {
+    width: 64.86px;
+    height: 12px;
+    background-color: transparent;
+    margin-top: 4px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_header_countdown_timer_second_label span {
+    color: #727272;
+    text-transform: uppercase;
+    font-size: 10px;
+    text-align: center;
+    font-weight: 400;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 17px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_container {
+    width: 100%;
+    height: 40px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons {
+    width: 83.11px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    right: 0;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_left {
+    width: 40px;
+    height: 40px;   
+    background-color: transparent; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_left_container {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    border: 1px solid #d8d8d8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: auto;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_left_container svg {
+    height: 16px;
+    width: 16px;
+    color: #000000;
+}
+/* .barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_left_container:hover {
+    background-color: #154284;
+    transition: background-color 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_left_container:hover svg {
+    fill: white;
+    transition: fill 0.25s;
+} */
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_right {
+    width: 40px;
+    height: 40px;   
+    background-color: transparent; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_right_container {
+    width: 100%;
+    height: 100%;
+    background-color: #f8f8f8;
+    border: 1px solid #d8d8d8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_right_container svg {
+    height: 16px;
+    width: 16px;
+    color: #000000;
+}
+/* .barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_right_container:hover {
+    background-color: #154284;
+    transition: background-color 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_header_scrollercontroller_buttons_right_container:hover svg {
+    fill: white;
+    transition: fill 0.25s;
+} */
+.barcelona_page_middle_firstteammatches_content_header_synccalendar {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    right: 120px;
+}
+.barcelona_page_middle_firstteammatches_content_header_synccalendar_container {
+    width: 189.5px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_header_synccalendar_content {
+    position: absolute;
+    background-color: transparent;
+    right: 0;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.barcelona_page_middle_firstteammatches_content_header_synccalendar_content svg {
+    height: 16px;
+    width: 16px;
+    fill: #154284;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_header_synccalendar_content span {
+    color: #154284;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_header_synccalendar_content:hover span {
+    text-decoration: underline;
+    text-decoration-color: #154284;
+}
+.barcelona_page_middle_firstteammatches_content_scroller {
+    width: 100%;
+    height: 306px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_container {
+    width: 2870px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    left: -734px;
+    /* right: 0px; */
+    /* left: 0px; */
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewResults {
+    width: 352px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewResults_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    background-color: transparent;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewResults_picture {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewResults_picture img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewResults_gradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(230deg,rgba(24, 23, 53, .9),rgba(154, 0, 11, .9));
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewResults_content {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewResults_content_container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewResults_content_top {
+    display: block;
+    text-align: center;
+    color: white;
+    word-spacing: 8px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewResults_content_bottom {
+    display: block;
+    text-align: center;
+    color: white;
+    word-spacing: 8px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox {
+    width: 350px;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+    border: 1px solid #efefef;
+    transition: box-shadow 0.25s;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 8px 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;
+    transition: box-shadow 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_header {
+    width: 100%;
+    height: 47px;
+    background-color: #154284;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_header_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_header_date {
+    font-size: 40px;
+    line-height: 32px;
+    text-align: left;
+    word-spacing: 6px;
+    white-space: nowrap;
+    color: white;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_header_information {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline-block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_header_information_weekday {
+    font-size: 18px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 16px;
+    font-weight: 400;
+    color: white;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_header_information_month {
+    font-size: 18px;
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 16px;
+    font-weight: 400;
+    color: white;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription {
+    width: 100%;
+    height: 177px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 16px;
+    padding-bottom: 11px;
+    padding-left: 27px;
+    padding-right: 27px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_left {
+    width: 73.66px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 46px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_left img {
+    height: 55px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle {
+    width: 148.7px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle_competition {
+    width: 92px;
+    height: 24px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle_outcome {
+    width: 100%;
+    height: 80px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle_outcome_time {
+    width: 100%;
+    color: #727272;
+    font-family: fcb-regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 10px;
+    white-space: nowrap;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle_outcome_result {
+    width: 82px;
+    height: 40px;
+    background: linear-gradient(180deg, #2c4481, #181733);
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle_outcome_result span {
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    font-size: 32px;
+    line-height: 36px;
+    white-space: nowrap;
+    word-spacing: 0px;
+    text-align: center;
+    font-weight: 400;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle_teams {
+    width: 350px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -92px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    white-space: nowrap;
+    text-align: center;
+    display: block;
+    text-size-adjust: 100%;
+    word-spacing: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle_teams_bold {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    color: #222222;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle_teams_regular {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    color: #222222;
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    white-space: nowrap;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle_venue {
+    width: auto;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    white-space: nowrap;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_middle_venue span {
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #222222;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_right {
+    width: 73.66px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 46px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_matchdescription_content_right img {
+    height: 55px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links {
+    width: 100%;
+    height: 81px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom: 1px solid #efefef;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_barcatv {
+    width: 148px;
+    height: 32px;
+    background: linear-gradient(270deg, #154284, #cd122d);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: margin-top 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_barcatv_container {
+    width: 100%;
+    height: 100%;
+    background-color: #181733;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_barcatv_container span {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 32px;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_barcatv:hover {
+    margin-top: 5px;
+    transition: margin-top 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_barcatv:hover .barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_barcatv_container {
+    background-color: transparent;
+    transition: background-color 0.25s
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_matchreport {
+    width: 148px;
+    height: 32px;
+    background-color: #154284;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 8px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: background-image 0.25s, margin-top 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_matchreport_container span {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 32px;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_matchreport_container span {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    line-height: 32px;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_past_links_matchreport:hover {
+    margin-top: 5px;
+    background-image: linear-gradient(270deg, #154284, #cd122d);
+    transition: background-image 0.25s, margin-top 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox {
+    width: 710px;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: white;
+    border: 1px solid #efefef;
+    transition: box-shadow 0.25s;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 0px 8px 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 0px 14px 0px;
+    transition: box-shadow 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header {
+    width: 710px;
+    height: 47px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -1px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_container {
+    width: 710px;
+    height: 47px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_backgroundcolor {
+    width: 710px;
+    height: 47px;
+    background-color: #080e1f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_backgroundimage {
+    width: 710px;
+    height: 47px;
+    background-image: url('../../../../../barcelona_images/images_index/index_middle/middle_firstteammatches/firstteammatches_slider/slider_images/slider_horizontalfade.png');
+    background-size: 318px 48px;
+    background-repeat: no-repeat;
+    background-position: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content {
+    width: 710px;
+    height: 47px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    position: absolute;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_left {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_day {
+    font-size: 40px;
+    line-height: 32px;
+    text-align: left;
+    word-spacing: 6px;
+    white-space: nowrap;
+    color: white;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_information {
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline-block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_left_weekday {
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_left_weekday span {
+    font-size: 18px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 16px;
+    font-weight: 400;
+    color: white;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_left_month {
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_left_month span {
+    font-size: 18px;
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 16px;
+    font-weight: 400;
+    color: white;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_right {
+    width: 50%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_right_container {
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_right_header {
+    height: 50%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_right_header span {
+    color: #fdc52c;
+    font-size: 17.6px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-style: italic;
+    text-transform: uppercase;
+    line-height: 15px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_right_sponsor {
+    height: 50%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_right_sponsor_title {
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 13px;
+    font-size: 8px;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+    font-style: italic;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_right_sponsor_divider {
+    width: 1px;
+    height: 12px ;
+    background-color: white;
+    opacity: 0.2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 7px;
+    margin-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_header_content_right_sponsor svg {
+    height: 13px;
+    width: 50px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description {
+    width: 100%;
+    height: 176px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 16px;
+    padding-bottom: 11px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_left {
+    width: 235px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_left img {
+    height: 86px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_middle {
+    width: 160px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_middle_competition {
+    width: 92px;
+    height: 24px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_middle_time {
+    width: 100%;
+    height: 79px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_middle_time_kickoff {
+    color: #727272;
+    font-family: fcb-regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    word-spacing: 0px;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_middle_time_start {
+    font-size: 48px;
+    line-height: 58px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    background-color: white;
+    background-image: linear-gradient(90deg, #cd122d, #154284);
+    background-position: 0%;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    -webkit-background-clip: text;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_middle_teams {
+    width: 710px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -275px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_middle_teams_bold {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    color: #222222;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_middle_teams_regular {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    color: #222222;
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    white-space: nowrap;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_middle_venue {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_middle_venue span {
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 10px;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #222222;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_right {
+    width: 235px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 25px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_description_content_right img {
+    height: 86px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_links {
+    width: 100%;
+    height: 82px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_links_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_tickets {
+    width: 160px;
+    height: 36px;
+    background-color: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_tickets_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;    
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_mainBox_tickets span {
+    color: #e7b809;
+    font-size: 12px;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future {
+    width: 350px;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header {    
+    width: 350px;
+    height: 47px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -1px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_container {
+    width: 350px;
+    height: 47px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_backgroundcolor {
+    width: 350px;
+    height: 47px;
+    background-color: #080e1f;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_content {
+    width: 350px;
+    height: 47px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 7px;
+    padding-bottom: 6px;
+    padding-left: 14px;
+    padding-right: 14px;
+    position: absolute;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_content_left {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    align-items: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_content_day {
+    font-size: 40px;
+    line-height: 32px;
+    text-align: left;
+    word-spacing: 6px;
+    white-space: nowrap;
+    color: white;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_content_information {
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: inline-block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_content_left_weekday {
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_content_left_weekday span {
+    font-size: 18px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 16px;
+    font-weight: 400;
+    color: white;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_content_left_month {
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_header_content_left_month span {
+    font-size: 18px;
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    white-space: nowrap;
+    text-align: left;
+    line-height: 16px;
+    font-weight: 400;
+    color: white;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description {
+    width: 100%;
+    height: 176px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 16px;
+    padding-bottom: 11px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_left {
+    width: 68px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 46px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_left img {
+    height: 55px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_middle {
+    width: 160px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_middle_competition {
+    width: 92px;
+    height: 24px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_middle_time {
+    width: 100%;
+    height: 79px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_middle_time_kickoff {
+    color: #727272;
+    font-family: fcb-regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    word-spacing: 0px;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_middle_time_start {
+    font-size: 48px;
+    line-height: 58px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    background-color: white;
+    background-image: linear-gradient(90deg, #cd122d, #154284);
+    background-position: 0%;
+    -webkit-text-fill-color: rgba(0, 0, 0, 0);
+    -webkit-background-clip: text;
+    display: block;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_middle_teams {
+    width: 350px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: -92px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 6px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_middle_teams_bold {
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    color: #222222;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_middle_teams_regular {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    color: #222222;
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    white-space: nowrap;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_middle_venue {
+    width: 100%;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_middle_venue span {
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 10px;
+    font-weight: 400;
+    white-space: nowrap;
+    color: #222222;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_right {
+    width: 68px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 46px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_description_content_right img {
+    height: 55px;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_links {
+    width: 100%;
+    height: 82px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_links_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_tickets {
+    width: 160px;
+    height: 36px;
+    background-color: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: background-color 0.25s, margin-top 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_tickets_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;    
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_tickets_container_disabled {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;    
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_tickets_container span {
+    color: #222222;
+    font-size: 12px;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_tickets_disabled {
+    width: 160px;
+    height: 36px;
+    background-color: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    transition: background-color 0.25s, margin-top 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_tickets_container_disabled span {
+    color: #e7b809;
+    font-size: 12px;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;   
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_tickets:hover {
+    background-color: #cd122d;
+    margin-top: 10px;
+    transition: background-color 0.25s, margin-top 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_tickets:hover .barcelona_page_middle_firstteammatches_content_scroller_smallBox_future_tickets_container span {
+    color: white;
+    transition: color 0.25s;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewFixtures {
+    width: 352px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 4px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewFixtures_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    background-color: transparent;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewFixtures_picture {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewFixtures_picture img {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewFixtures_gradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(230deg,rgba(24, 23, 53, .9),rgba(154, 0, 11, .9));
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewFixtures_content {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewFixtures_content_container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewFixtures_content_top {
+    display: block;
+    text-align: center;
+    color: white;
+    word-spacing: 8px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_scroller_viewFixtures_content_bottom {
+    display: block;
+    text-align: center;
+    color: white;
+    word-spacing: 8px;
+    font-size: 32px;
+    line-height: 36px;
+    font-weight: 400;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_middle_firstteammatches_content_controller {
+    width: 100%;
+    height: 4px;
+    background-color: transparent;
+    margin-top: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_firstteammatches_content_controller_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_firstteammatches_content_controller_left {
+    width: 44px;
+    height: 4px;
+    background-color: #cd122d;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+.barcelona_page_middle_firstteammatches_content_controller_center {
+    width: 44px;
+    height: 4px;
+    background-color: #d8d8d8;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+.barcelona_page_middle_firstteammatches_content_controller_right {
+    width: 44px;
+    height: 4px;
+    background-color: #cd122d;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}

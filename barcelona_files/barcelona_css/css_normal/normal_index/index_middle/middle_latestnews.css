@@ -1,0 +1,1001 @@
+@font-face {
+    font-family: fcb-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-extra-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-light;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-semi-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-regular;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    resize: none;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+body {
+    width: 1920px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.barcelona_page {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_container {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle {
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 128px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: inline-block;
+}
+.barcelona_page_middle_container {
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle_latestnews {
+    width: 100%;
+    height: 739.39px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_latestnews_container {
+    width: 100%;
+    height: 100%;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    background: #080e1f;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 4px 12px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_latestnews_article_left {
+    /* width: 20%; */
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_latestnews_article_left_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_latestnews_article_left_image {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_latestnews_article_left_image img {
+    height: 100%;
+    width: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+.barcelona_page_middle_latestnews_article_left_effect {
+    width: 100%;
+    height: 588.52px;
+    background: linear-gradient(0deg,#080e1f 6rem,rgba(8,14,31,0));
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.barcelona_page_middle_latestnews_article_left_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_latestnews_article_left_content_container {
+    width: 100%;
+    height: 100%;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_latestnews_article_left_content_catagory {
+    width: 100%;
+    height: 26px;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 24px;
+}
+.barcelona_page_middle_latestnews_article_left_content_catagory_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_latestnews_article_left_content_catagory_left {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_latestnews_article_left_content_catagory_left_icon {
+    width: 8px;
+    height: 8px;
+    background-color: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_latestnews_article_left_content_catagory_left span {
+    color: #fdc52c;
+    text-align: center;
+    flex: none;
+    text-transform: uppercase;
+    font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+.barcelona_page_middle_latestnews_article_left_content_catagory_right {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_latestnews_article_left_content_catagory_right svg {
+    width: 10px;
+    height: 10px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    fill: white;
+}
+.barcelona_page_middle_latestnews_article_left_content_catagory_right span {
+    font-size: 11px;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    color: white;
+}
+.barcelona_page_middle_latestnews_article_left_content_text {
+    width: 100%;
+    height: auto;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 52px;
+    display: block;
+}
+.barcelona_page_middle_latestnews_article_left_content_text_barcatv {
+    width: auto;
+    height: 38px;
+    fill: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.barcelona_page_middle_latestnews_article_left_content_text_title {
+    width: 768px;
+    /* width: 384px; */
+    height: auto;
+    background-color: transparent;
+    color: white;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    /* font-size: 16px; */
+    /* line-height: 17.6px; */
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.barcelona_page_middle_latestnews_article_left_content_text_description {
+    width: 440px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-size-adjust: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: fcb-regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    opacity: 1;
+    display: block;
+}
+.barcelona_page_middle_latestnews_article_middle {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_latestnews_article_middle_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_latestnews_article_middle_image {
+    width: 100%;
+    height: 91.2089696%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_latestnews_article_middle_image img {
+    /* width: 120%; */
+    /* height: auto; */
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+.barcelona_page_middle_latestnews_article_middle_effect {
+    width: 100%;
+    height: 368.2px;
+    background: linear-gradient(0deg,#080e1f 6rem,rgba(8,14,31,0));
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.barcelona_page_middle_latestnews_article_middle_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_latestnews_article_middle_content_container {
+    width: 100%;
+    height: 100%;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_latestnews_article_middle_content_catagory {
+    width: 100%;
+    height: 26px;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 24px;
+}
+.barcelona_page_middle_latestnews_article_middle_content_catagory_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_latestnews_article_middle_content_catagory_left {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_latestnews_article_middle_content_catagory_left_icon {
+    width: 8px;
+    height: 8px;
+    background-color: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_latestnews_article_middle_content_catagory_left span {
+    color: #fdc52c;
+    text-align: center;
+    flex: none;
+    text-transform: uppercase;
+    font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+.barcelona_page_middle_latestnews_article_middle_content_catagory_right {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_latestnews_article_middle_content_catagory_right svg {
+    width: 10px;
+    height: 10px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    fill: white;
+}
+.barcelona_page_middle_latestnews_article_middle_content_catagory_right span {
+    font-size: 11px;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    color: white;
+}
+.barcelona_page_middle_latestnews_article_middle_content_text {
+    width: 100%;
+    height: auto;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 52px;
+    display: block;
+}
+.barcelona_page_middle_latestnews_article_middle_content_text_barcatv {
+    width: auto;
+    height: 19px;
+    fill: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.barcelona_page_middle_latestnews_article_middle_content_text_title {
+    /* width: 768px; */
+    width: 384px;
+    height: auto;
+    background-color: transparent;
+    color: white;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    /* font-size: 32px; */
+    font-size: 16px;
+    /* line-height: 17.6px; */
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.barcelona_page_middle_latestnews_article_middle_content_text_description {
+    width: 440px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-size-adjust: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: fcb-regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+    /* opacity: 0; */
+    /* display: none; */
+}
+.barcelona_page_middle_latestnews_article_right {
+    width: 20%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_latestnews_article_right_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_latestnews_article_right_image {
+    width: 100%;
+    height: 91.2089696%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_latestnews_article_right_image img {
+    /* width: 100%; */
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;    
+}
+.barcelona_page_middle_latestnews_article_right_effect {
+    width: 100%;
+    height: 368.2px;
+    background: linear-gradient(0deg,#080e1f 6rem,rgba(8,14,31,0));
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.barcelona_page_middle_latestnews_article_right_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_latestnews_article_right_content_container {
+    width: 100%;
+    height: 100%;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_latestnews_article_right_content_catagory {
+    width: 100%;
+    height: 26px;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 24px;
+}
+.barcelona_page_middle_latestnews_article_right_content_catagory_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_latestnews_article_right_content_catagory_left {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_latestnews_article_right_content_catagory_left_icon {
+    width: 8px;
+    height: 8px;
+    background-color: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_latestnews_article_right_content_catagory_left span {
+    color: #fdc52c;
+    text-align: center;
+    flex: none;
+    text-transform: uppercase;
+    font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+.barcelona_page_middle_latestnews_article_right_content_catagory_right {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_latestnews_article_right_content_catagory_right svg {
+    width: 10px;
+    height: 10px;
+    margin-top: 1px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    fill: white;
+}
+.barcelona_page_middle_latestnews_article_right_content_catagory_right span {
+    font-size: 11px;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 400;
+    vertical-align: middle;
+    color: white;
+}
+.barcelona_page_middle_latestnews_article_right_content_text {
+    width: 100%;
+    height: auto;    
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 52px;
+    display: block;
+}
+.barcelona_page_middle_latestnews_article_right_content_text_barcatv {
+    width: auto;
+    height: 19px;
+    fill: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+}
+.barcelona_page_middle_latestnews_article_right_content_text_title {
+    /* width: 768px; */
+    width: 384px;
+    height: auto;
+    background-color: transparent;
+    color: white;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    font-size: 16px;
+    line-height: 17.6px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    /* padding-left: 40px; */
+    /* padding-right: 40px; */
+}
+.barcelona_page_middle_latestnews_article_right_content_text_description {
+    width: 440px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    text-size-adjust: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: fcb-regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    color: white;
+}

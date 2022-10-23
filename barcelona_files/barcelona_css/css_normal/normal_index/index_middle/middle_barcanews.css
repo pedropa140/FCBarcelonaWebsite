@@ -1,0 +1,525 @@
+@font-face {
+    font-family: fcb-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-extra-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-light;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-semi-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-regular;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    resize: none;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+body {
+    width: 1920px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.barcelona_page {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_container {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle {
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 128px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: inline-block;
+}
+.barcelona_page_middle_container {
+    width: 100%;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle_barcanews {
+    width: 100%;
+    height: 768px;
+    background-color: #181733;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_middle_barcanews_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 204px;
+    padding-right: 204px;
+}
+.barcelona_page_middle_barcanews_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 24px;
+    padding-bottom: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: white;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_barcanews_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcanews_content_header {
+    width: 100%;
+    height: 74px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcanews_content_header_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_barcanews_content_header_container span {
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 36px;
+    background-attachment: scroll;
+    background-clip: text;
+    background-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(90deg,#cd122d,#154284);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.barcelona_page_middle_barcanews_content_news {
+    width: 100%;
+    height: 620px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcanews_content_news_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.barcelona_page_middle_barcanews_content_news_article {
+    width: 358px;
+    height: 310px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.barcelona_page_middle_barcanews_content_news_article_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid #efefef;
+    transition: box-shadow 0.5s;
+}
+.barcelona_page_middle_barcanews_content_news_article_container:hover {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 12px 0px;
+    transition: box-shadow 0.5s;
+}
+.barcelona_page_middle_barcanews_content_news_article_picture {
+    width: 100%;
+    height: 194.75px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-position: top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    transition: background-position 0.25s, height 0.25s;
+}
+.barcelona_page_middle_barcanews_content_news_article_container:hover .barcelona_page_middle_barcanews_content_news_article_picture {
+    background-position: 0% 30%;
+    height: 138.19px;
+    transition: background-position 0.5s, height 0.5s;
+}
+.barcelona_page_middle_barcanews_content_news_article_text {
+    width: 100%;
+    height: 105.25px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    transition: height 0.25s;
+}
+.barcelona_page_middle_barcanews_content_news_article_container:hover .barcelona_page_middle_barcanews_content_news_article_text {
+    height: 161.81px;
+    transition: height 0.5s;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_caption {
+    width: 100%;
+    height: 70.859px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    transition: height 0.25s, padding-bottom 0.25s;
+}
+.barcelona_page_middle_barcanews_content_news_article_container:hover .barcelona_page_middle_barcanews_content_news_article_text .barcelona_page_middle_barcanews_content_news_article_text_caption {
+    height: 127.491px;
+    padding-bottom: 18px;
+    transition: height 0.5s, padding-bottom 0.5s;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_caption_title {
+    width: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 16px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: margin-bottom 0.25s;
+    text-align: center;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_caption_title span {
+    font-size: 18px;
+    color: #222222;
+    line-height: 23px;
+    font-weight: 400;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_barcanews_content_news_article_container:hover .barcelona_page_middle_barcanews_content_news_article_text .barcelona_page_middle_barcanews_content_news_article_text_caption .barcelona_page_middle_barcanews_content_news_article_text_caption_title {
+    margin-bottom: 8px;
+    transition: margin-bottom 0.5s;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_caption_description {
+    width: 100%;
+    height: 36px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_caption_description span {
+    font-size: 12px;
+    line-height: 12px;
+    color: #727272;
+    font-weight: 400;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_barcanews_content_news_article_container:hover .barcelona_page_middle_barcanews_content_news_article_text .barcelona_page_middle_barcanews_content_news_article_text_caption .barcelona_page_middle_barcanews_content_news_article_text_caption_description {
+    opacity: 1;
+    transition: opacity 0.5s;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_caption_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_categoryandtime {
+    width: 100%;
+    height: 18.391px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 0px;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_categoryandtime_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_categoryandtime_category {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_categoryandtime_category_square {
+    width: 8px;
+    height: 8px;
+    background-color: #cd122d;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_categoryandtime_category span {
+    color: #cd122d;
+    font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_categoryandtime_time {
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_categoryandtime_time svg {
+    width: 8px;
+    height: 8px;
+    fill: #727272;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_barcanews_content_news_article_text_categoryandtime_time span {
+    color: #727272;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}

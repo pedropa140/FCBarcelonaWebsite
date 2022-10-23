@@ -1,0 +1,3026 @@
+@font-face {
+    font-family: fcb-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-extra-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-light;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-semi-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-regular;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    resize: none;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+body {
+    width: 1920px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.barcelona_page {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_container {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_top {
+    width: 1920px;
+    height: 128px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    position: fixed;
+    box-shadow: 0 0.3rem 0.4rem 0 rgb(0 0 0 / 25%);
+    z-index: 1;
+}
+.barcelona_page_top_container {
+    width: 1920px;
+    height: 128px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: block;
+}
+.barcelona_page_top_navigation {
+    width: 1920px;
+    height: 120px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: block;
+}
+.barcelona_page_top_navigation_container {
+    width: 1920px;
+    height: 128px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_logo {
+    width: 328px;
+    height: 128px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: block;
+}
+.barcelona_page_top_navigation_logo_container {
+    width: 328px;
+    height: 128px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: #181733;
+    position: relative;
+}
+.barcelona_page_top_navigation_logo_hover {
+    width: 328px;
+    height: 128px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    transition: 0.25s;
+}
+.barcelona_page_top_navigation_logo_container:hover .barcelona_page_top_navigation_logo_hover {
+    background-color: #29283d;
+    transition: 0.25s;
+}
+.barcelona_page_top_navigation_logo_logo {
+    width: 328px;
+    height: 128px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    position: absolute;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_logo_logo img {
+    height: 50px;
+    width: 265px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_logo_lefteffect {
+    width: 16.38px;
+    height: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: absolute;
+    background-color: #154284;
+    transition: 0.25s;
+}
+.barcelona_page_top_navigation_logo_container:hover .barcelona_page_top_navigation_logo_lefteffect {
+    height: 48px;
+    transition: 0.25s;
+}
+.barcelona_page_top_navigation_logo_righteffect {
+    width: 16.38px;
+    height: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    background-color: #cd122d;
+    transition: 0.25s;
+}
+.barcelona_page_top_navigation_logo_container:hover .barcelona_page_top_navigation_logo_righteffect {
+    height: 30px;
+    transition: 0.25s;
+}
+.barcelona_page_top_navigation_links {
+    width: 1592px;
+    height: 128px;
+    background-color: transparent;
+}
+.barcelona_page_top_navigation_links_container {
+    width: 1592px;
+    height: 128px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+}
+.barcelona_page_top_navigation_links_top {
+    width: 1592px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_container {
+    width: 1592px;
+    height: 48px;
+    background-color: #0a0927;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-left: 1.5px solid #29283d;
+    position: relative;
+}
+.barcelona_page_top_navigation_links_top_socialmedia {
+    width: 350px;
+    height: 48px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: space-around;
+}
+.barcelona_page_top_navigation_links_top_socialmedia p {
+    font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-weight: 700;
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    text-transform: uppercase;
+}
+.barcelona_page_top_navigation_links_top_socialmedia a {
+    width: 21.5px;
+    height: 21.5px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_socialmedia a svg {
+    fill: hsla(0,0%,100%,.6);
+    height: 20px;
+    width: 20px;
+}
+.barcelona_page_top_navigation_links_top_socialmedia svg:hover{
+    fill: hsla(0,0%,100%, 1);
+}
+.barcelona_page_top_navigation_links_top_login {
+    width: 425.22px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_container {
+    width: 425.22px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation {
+    width: 296.09px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_container {
+    width: 296.09px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_signin {
+    width: 77.48px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_signin_container {
+    width: 77.48px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 16px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_signin_container a {    
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_signin_container a svg {
+    fill: white;
+    height: 16px;
+    width: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_signin_container a span {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 5px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_signin_container a:hover span {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_membership {
+    width: 157.05px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_membership a {
+    width: 157.05px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_membership_container {
+    width: 149.05px;
+    height: 34px;
+    background: linear-gradient(90deg,#8c1a17,#cd122d);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_membership_container svg {
+    fill: white;
+    height: 16px;
+    width: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 4px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_membership_container span {
+    color: white;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: fcb-extra-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language {
+    width: 61.56px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-right: 1px solid #29283d;
+    cursor: pointer;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_container {
+    width: 61.56px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_content {
+    width: 61.56px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    transition: background 0.25s;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_content_container {
+    width: 61.56px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_container:hover .barcelona_page_top_navigation_links_top_login_userinformation_language_content {
+    background-color: #29283d;
+    transition: background 0.25s;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_content_container span {
+    color: white;
+    font-weight: 700;
+    font-size: 12px;    
+    transform: scale(1.0, 1.15);
+    margin-left: auto;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_content_container svg {
+    fill: white;
+    width: 8px;
+    height: 5.38px;
+    margin-left: 5px;
+    margin-right: auto;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_arrow {
+    position: absolute;
+    right: 14px;
+    background-color: transparent;
+    bottom: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_container:hover .barcelona_page_top_navigation_links_top_login_userinformation_language_arrow {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;  
+    border-bottom: 8px solid #fff;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown {
+    height: 0px;
+    width: 0px;
+    /* height: 276px;
+    width: 238px; */
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 8%);
+    top: 100%;
+    right: 2px;
+    z-index: 1;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-top: 0px;
+    padding-bottom: 16px;
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: height 0.5s;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* border: 1px solid #efefef; */
+    white-space: nowrap;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_container:hover .barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown {
+    height: 276px;
+    width: 238px;
+    transition: 0.25s;
+    border: 1px solid #efefef;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_container {
+    height: 276px;
+    width: 238px;
+    background-color: transparent;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    opacity: 0;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_container:hover .barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown .barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_container{
+    margin-top: 0px;
+    opacity: 1;
+    transition: margin-top 0.5s, opacity 0.75s;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_header {
+    width: 238px;
+    height: 38px;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    padding-left: 29px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_header_container {
+    width: 238px;
+    height: 38px; 
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_header_container span {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(114, 114, 114);
+    line-height: 14px;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options {
+    width: 238px;
+    height: 240px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_container {
+    width: 238px;
+    height: 240px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list {
+    width: 238px;
+    height: 36px;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.03);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_container {
+    width: 238px;
+    height: 36px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_container:hover {
+    background-color: rgb(239, 239, 239);
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_currentindicatior {
+    width: 238px;
+    height: 36px;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_currentindicatior_container {
+    width: 238px;
+    height: 36px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_currentindicatior_indicator {
+    width: 8px;
+    height: 24px;
+    background-color: rgb(21, 66, 132);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_content {
+    width: 238px;
+    height: 36px;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_content_container {
+    width: 238px;
+    height: 36px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 28px;
+    padding-right: 28px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_content_language {
+    width: 119px;
+    height: 20px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: block;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_content_language span {
+    color: rgb(34,34,34);
+    font-size: 14px;
+    text-align: left;
+    font-weight: 600;
+    display: block;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_content_current {
+    width: 119px;
+    height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.barcelona_page_top_navigation_links_top_login_userinformation_language_dropdown_options_list_content_current span {
+    color: rgb(118, 118, 118);
+    font-size: 10px;
+    font-weight: 400;
+    margin-left: auto;
+}
+.barcelona_page_top_navigation_links_top_login_allsites {
+    width: 129.13px;
+    height: 48px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel {
+    height: 1080px;
+    /* width: 304px; */
+    width: 0px;
+    background: linear-gradient(0deg, #154284 0, #181733);
+    position: absolute;
+    right: 0px;
+    z-index: 1;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 48px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 64px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option {
+    width: 100%;
+    height: 94px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_highlighted {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_highlighted_action {
+    height: 100%;
+    width: 0px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: width 0.5s;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_container:hover .barcelona_page_top_navigation_links_top_login_allsites_panel_option_highlighted .barcelona_page_top_navigation_links_top_login_allsites_panel_option_highlighted_action {
+    width: 6px;
+    transition: width 0.5s;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 20px;
+    position: absolute;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_content_bullet {
+    width: 26.119403%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 16px;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_content_bullet_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_content_bullet_container img {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_content_website {
+    width: 73.880597%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_content_website_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_content_website_header {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    white-space: nowrap;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_option_content_website_description {
+    font-size: 10.5px;
+    height: 32px;
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    line-height: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: fcb-light,Arial,"Helvetica Neue",Helvetica,sans-serif;
+    white-space: nowrap;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_panel_border {
+    width: 89.9980263%;
+    height: 1px;
+    background-color: hsla(0,0%,100%, .1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_button {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 10px;
+    padding-right: 26px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+
+}
+.barcelona_page_top_navigation_links_top_login_allsites_button span {
+    color: white;
+    font-size: 12px;
+    font-family: fcb-bold,Arial,"Helvetica Neue",Helvetica,sans-serif;
+    font-weight: 600;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_button_icon {
+    width: 16px;
+    height: 16px;
+    background-color: transparent;
+    position: relative;
+    margin-left: auto;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_button_icon_svg {
+    fill: white;
+    height: 16px;
+    width: 16px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_button_icon_close {
+    background-color: transparent;
+    width: 0px;
+    height: 100%;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_button_icon_close_container {
+    width: 0px;
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_top_login_allsites_button_icon_close_left {
+    position: absolute;
+    left: 7px;
+    height: 100%;
+    width: 0px;
+    background-color: white;
+    transform: rotate(135deg);
+}
+.barcelona_page_top_navigation_links_top_login_allsites_button_icon_close_right {
+    position: absolute;
+    left: 7px;
+    height: 100%;
+    width: 0px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+.barcelona_page_top_navigation_links_bottom {
+    width: 1592px;
+    height: 72px;
+    background-color: #181733;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-left: 1.5px solid #29283d;
+}
+.barcelona_page_top_navigation_links_bottom_container {
+    width: 1592px;
+    height: 72px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam {
+    width: 254.44px;
+    height: 72px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_banner {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: 1px solid rgb(41, 40, 61);
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_banner_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    text-align: center;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_banner_container span {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 5px;
+    /* letter-spacing: -0.5px; */
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_banner_container svg {
+    fill: white;
+    height: 6.391px;
+    width: 6.391px;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_arrow {
+    position: absolute;
+    right: 50%;
+    background-color: transparent;
+    bottom: 8px;
+    transition: all 0.5s;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_container:hover .barcelona_page_top_navigation_links_bottom_firstteam_arrow {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;  
+    border-bottom: 8px solid #154284;
+    transition: all 0.5s;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_dropdown {
+    width: 0px;
+    height: 0px;
+    
+    left: 50%;
+    right: 50%;
+    background-color: #154284;
+    z-index: 1;
+    top: 100%;
+    position: absolute;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0 0.2rem 0.6rem 0 rgb(0 0 0 / 8%);
+    transition: all 0.1s;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_container:hover .barcelona_page_top_navigation_links_bottom_firstteam_dropdown {
+    width: 100%;
+    height: 304px;
+    transition: all 0.25s;
+    left: 0px;
+    right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_dropdown_container {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    opacity: 0;
+    transition: margin-top 0s, opacity 0s;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_container:hover .barcelona_page_top_navigation_links_bottom_firstteam_dropdown .barcelona_page_top_navigation_links_bottom_firstteam_dropdown_container {
+    margin-top: 0px;
+    opacity: 1;
+    transition: margin-top 0.5s, opacity 0.75s;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_dropdown_link {
+    width: 100%;
+    height: 36px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_dropdown_link_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_dropdown_link_text {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: flex-start;
+    display: inline-flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_dropdown_link_text span {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    font-family: fcb-bold, Arial, "helvetica Neue",Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_bottom_firstteam_dropdown_link:hover .barcelona_page_top_navigation_links_bottom_firstteam_dropdown_link_container .barcelona_page_top_navigation_links_bottom_firstteam_dropdown_link_text span {
+    text-decoration: underline;
+    color: white;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum {
+    width: 254.44px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_banner {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: 1px solid rgb(41, 40, 61);
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_banner_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    text-align: center;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_banner_container span {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 5px;
+    /* letter-spacing: -0.5px; */
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_banner_container svg {
+    fill: white;
+    height: 6.391px;
+    width: 6.391px;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_arrow {
+    position: absolute;
+    right: 50%;
+    background-color: transparent;
+    bottom: 8px;
+    transition: all 0.5s;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_container:hover .barcelona_page_top_navigation_links_bottom_ticketsandmuseum_arrow {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;  
+    border-bottom: 8px solid #154284;
+    transition: all 0.5s;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown {
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    right: 50%;
+    background-color: #154284;
+    z-index: 1;
+    top: 100%;
+    position: absolute;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0 0.2rem 0.6rem 0 rgb(0 0 0 / 8%);
+    transition: all 0.1s;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_container:hover .barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown {
+    width: 174.7%;
+    height: 304px;
+    transition: all 0.25s;
+    left: -40%;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown_container {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: margin-top 0s, opacity 0s;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_container:hover .barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown_container {
+    margin-top: 0px;
+    opacity: 1;
+    transition: margin-top 0.5s, opacity 1s;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown_link {
+    width: 100%;
+    height: 36px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown_link_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown_link_text {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: flex-start;
+    display: inline-flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown_link_text span {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    font-family: fcb-bold, Arial, "helvetica Neue",Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown_link:hover .barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown_link_container .barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown_link_text span {
+    text-decoration: underline;
+    color: white;
+}
+.barcelona_page_top_navigation_links_bottom_ticketsandmuseum_dropdown_divider {
+    width: 1px;
+    height: 95.8333333%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_shop {
+    width: 254.44px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_shop_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.barcelona_page_top_navigation_links_bottom_shop_banner {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: 1px solid rgb(41, 40, 61);
+}
+.barcelona_page_top_navigation_links_bottom_shop_banner_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    text-align: center;
+}
+.barcelona_page_top_navigation_links_bottom_shop_banner_container span {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 5px;
+    /* letter-spacing: -0.5px; */
+}
+.barcelona_page_top_navigation_links_bottom_shop_banner_container svg {
+    fill: white;
+    height: 10px;
+    width: 10px;
+}
+.barcelona_page_top_navigation_links_bottom_culers {
+    width: 254.44px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_culers_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.barcelona_page_top_navigation_links_bottom_culers_banner {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: 1px solid rgb(41, 40, 61);
+}
+.barcelona_page_top_navigation_links_bottom_culers_banner_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    text-align: center;
+}
+.barcelona_page_top_navigation_links_bottom_culers_banner_container span {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 5px;
+    /* letter-spacing: -0.5px; */
+}
+.barcelona_page_top_navigation_links_bottom_culers_banner_container svg {
+    fill: white;
+    height: 6.391px;
+    width: 6.391px;
+}
+.barcelona_page_top_navigation_links_bottom_culers_arrow {
+    position: absolute;
+    right: 50%;
+    background-color: transparent;
+    bottom: 8px;
+    transition: all 0.5s;
+}
+.barcelona_page_top_navigation_links_bottom_culers_container:hover .barcelona_page_top_navigation_links_bottom_culers_arrow {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;  
+    border-bottom: 8px solid #154284;
+    transition: all 0.5s;
+}
+.barcelona_page_top_navigation_links_bottom_culers_dropdown {
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    right: 50%;
+    background-color: #154284;
+    z-index: 1;
+    top: 100%;
+    position: absolute;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0 0.2rem 0.6rem 0 rgb(0 0 0 / 8%);
+    transition: all 0.1s;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.barcelona_page_top_navigation_links_bottom_culers_container:hover .barcelona_page_top_navigation_links_bottom_culers_dropdown {
+    width: 100%;
+    height: 196px;
+    transition: all 0.25s;
+    left: 0px;
+    right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_culers_dropdown_container {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    opacity: 0;
+    white-space: nowrap;
+    transition: margin-top 0s, opacity 0s;
+}
+.barcelona_page_top_navigation_links_bottom_culers_container:hover .barcelona_page_top_navigation_links_bottom_culers_dropdown .barcelona_page_top_navigation_links_bottom_culers_dropdown_container {
+    margin-top: 0px;
+    opacity: 1;
+    transition: margin-top 0.5s, opacity 0.75s;
+}
+.barcelona_page_top_navigation_links_bottom_culers_dropdown_link {
+    width: 100%;
+    height: 36px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_culers_dropdown_link_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_top_navigation_links_bottom_culers_dropdown_link_text {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: flex-start;
+    display: inline-flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_bottom_culers_dropdown_link_text span {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    font-family: fcb-bold, Arial, "helvetica Neue",Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_bottom_culers_dropdown_link:hover .barcelona_page_top_navigation_links_bottom_culers_dropdown_link_container .barcelona_page_top_navigation_links_bottom_culers_dropdown_link_text span {
+    text-decoration: underline;
+    color: white;
+}
+.barcelona_page_top_navigation_links_bottom_club {
+    width: 254.44px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_club_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.barcelona_page_top_navigation_links_bottom_club_banner {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: 1px solid rgb(41, 40, 61);
+}
+.barcelona_page_top_navigation_links_bottom_club_banner_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    text-align: center;
+}
+.barcelona_page_top_navigation_links_bottom_club_banner_container span {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 5px;
+    /* letter-spacing: -0.5px; */
+}
+.barcelona_page_top_navigation_links_bottom_club_banner_container svg {
+    fill: white;
+    height: 6.391px;
+    width: 6.391px;
+}
+.barcelona_page_top_navigation_links_bottom_club_arrow {
+    position: absolute;
+    right: 50%;
+    background-color: transparent;
+    bottom: 8px;
+    transition: all 0.5s;
+}
+.barcelona_page_top_navigation_links_bottom_club_container:hover .barcelona_page_top_navigation_links_bottom_club_arrow {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;  
+    border-bottom: 8px solid #154284;
+    transition: all 0.5s;
+}
+.barcelona_page_top_navigation_links_bottom_club_dropdown {
+    width: 0px;
+    height: 0px;
+    left: 50%;
+    right: 50%;
+    background-color: #154284;
+    z-index: 1;
+    top: 100%;
+    position: absolute;
+    margin-top: -8px;
+    margin-bottom: 8px;
+    margin-left: 0px;
+    margin-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: 0 0.2rem 0.6rem 0 rgb(0 0 0 / 8%);
+    transition: all 0.1s;
+    display: flex;
+    align-items: center;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.barcelona_page_top_navigation_links_bottom_club_container:hover .barcelona_page_top_navigation_links_bottom_club_dropdown {
+    width: 443.25px;
+    height: 448px;
+    transition: all 0.25s;
+    left: -104.405px;
+    right: -104.405px;
+}
+.barcelona_page_top_navigation_links_bottom_club_dropdown_container {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    margin-top: -30px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    white-space: nowrap;
+    opacity: 0;
+    transition: margin-top 0s, opacity 0s;
+}
+.barcelona_page_top_navigation_links_bottom_club_container:hover .barcelona_page_top_navigation_links_bottom_club_dropdown_container {
+    margin-top: 0px;
+    opacity: 1;
+    transition: margin-top 0.5s, opacity 1s;
+}
+.barcelona_page_top_navigation_links_bottom_club_dropdown_link {
+    width: 100%;
+    height: 36px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_club_dropdown_link_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_top_navigation_links_bottom_club_dropdown_link_text {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: flex-start;
+    display: inline-flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_bottom_club_dropdown_link_text span {
+    font-size: 13px;
+    font-weight: 500;
+    color: white;
+    font-family: fcb-bold, Arial, "helvetica Neue",Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_bottom_club_dropdown_link:hover .barcelona_page_top_navigation_links_bottom_club_dropdown_link_container .barcelona_page_top_navigation_links_bottom_club_dropdown_link_text span {
+    text-decoration: underline;
+    color: white;
+}
+.barcelona_page_top_navigation_links_bottom_club_dropdown_divider {
+    width: 1px;
+    height: 95.8333333%;
+    background-color: rgba(255, 255, 255, 0.1);
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams {
+    width: 254.44px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    cursor: pointer;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_banner {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-right: 1px solid rgb(41, 40, 61);
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_banner_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    justify-content: center;
+    text-align: center;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_banner_container span {
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: fcb-bold, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-right: 5px;
+    /* letter-spacing: -0.5px; */
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_banner_container svg {
+    fill: white;
+    height: 6.391px;
+    width: 6.391px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown {
+    width: 0px;
+    height: 0px;
+    left: -630.49px;
+    right: 882.69px;
+    /* width: 1920px;
+    height: 340px;
+    left: -1590.40px;
+    right: -75px; */
+    top: 100%;
+    background-color: #0a0927;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    z-index: 1;
+    transition: 0.1s;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams:hover .barcelona_page_top_navigation_links_bottom_barcateams_dropdown {
+    width: 1920px;
+    height: 340px;
+    left: -1592.40px;
+    right: -75px;
+    transition: 0.5s;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: -50px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: 0s;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams:hover .barcelona_page_top_navigation_links_bottom_barcateams_dropdown .barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content {
+    margin-top: 0px;
+    opacity: 1;
+    transition: margin-top 0.75s, opacity 0.75s;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_header {
+    width: 217.69px;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    padding-right: 60px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_header span {
+    font-size: 22px;
+    font-weight: 600;
+    font-family: fcb-extra-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+    color: #fdc52c;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_football {
+    width: 175px;
+    height: 100%;
+    background-color: transparent;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_football_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_football_header {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_football_header span {
+    color: #fdc52c;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: fcb-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_football_link {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_football_link a span {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: fcb-semi-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+    color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_football_link:hover a span {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_basketball {
+    width: 160.2px;
+    height: 100%;
+    background-color: transparent;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_basketball_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_basketball_header {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_basketball_header span {
+    color: #fdc52c;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: fcb-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_basketball_link {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_basketball_link a span {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: fcb-semi-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+    color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_basketball_link:hover a span {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_handball {
+    width: 146.91px;
+    height: 100%;
+    background-color: transparent;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_handball_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_handball_header {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_handball_header span {
+    color: #fdc52c;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: fcb-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_handball_link {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_handball_link a span {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: fcb-semi-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+    color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_handball_link:hover a span {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_futsal {
+    width: 128.81px;
+    height: 100%;
+    background-color: transparent;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_futsal_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_futsal_header {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_futsal_header span {
+    color: #fdc52c;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: fcb-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_futsal_link {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_futsal_link a span {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: fcb-semi-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+    color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_futsal_link:hover a span {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_rollerhockey {
+    width: 176.81px;
+    height: 100%;
+    background-color: transparent;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_rollerhockey_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_rollerhockey_header {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_rollerhockey_header span {
+    color: #fdc52c;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: fcb-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_rollerhockey_link {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_rollerhockey_link a span {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: fcb-semi-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+    color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_rollerhockey_link:hover a span {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_divider {
+    width: 1px;
+    height: 100%;
+    background-color: #29283d;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_esports {
+    width: 176.81px;
+    height: 100%;
+    background-color: transparent;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: auto;
+    padding-top: 8px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_esports_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_esports_header {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_esports_header span {
+    color: #fdc52c;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: fcb-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_esports_link {
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_esports_link a span {
+    font-size: 13px;
+    line-height: 16px;
+    font-weight: 400;
+    font-family: fcb-semi-bold, Arial, "Helvetiva Neue", Helvetica, sans-serif;
+    color: white;
+}
+.barcelona_page_top_navigation_links_bottom_barcateams_dropdown_content_esports_link:hover a span {
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.barcelona_page_top_navigation_links_bottom_search {
+    width: 4.89949749%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    cursor: pointer;
+}
+.barcelona_page_top_navigation_links_bottom_search_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_top_navigation_links_bottom_search_icon {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    opacity: 1;
+}
+.barcelona_page_top_navigation_links_bottom_search_icon_container {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_top_navigation_links_bottom_search_icon_circle {
+    width: 19px;
+    height: 19px;
+    background-color: transparent;
+    /* border-width: 2px;
+    border-radius: 100%;
+    border-color: white;
+    border-style: solid; */
+    border-top-color: white;
+    border-top-left-radius: 100%;
+    border-top-right-radius: 100%;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-bottom-color: white;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-left-color: white;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-right-color: white;
+    border-right-width: 2px;
+    border-right-style: solid;
+    position: absolute;
+}
+.barcelona_page_top_navigation_links_bottom_search_icon_handle {
+    width: 12px;
+    height: 2px;
+    position: absolute;
+    bottom: 3px;
+    right: 5px;
+    transform: rotate(45deg);
+    background-color: white;
+}
+.barcelona_page_top_navigation_links_bottom_search_exit {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px; 
+    display: flex;
+    align-items: center;   
+}
+.barcelona_page_top_navigation_links_bottom_search_exit_container {
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_top_navigation_links_bottom_search_exit_left {
+    position: absolute;
+    left: 10px;
+    height: 100%;
+    width: 0px;
+    bottom: -5px;
+    background-color: white;
+    transform: rotate(135deg);
+}
+.barcelona_page_top_navigation_links_bottom_search_exit_right {
+    position: absolute;
+    left: 10px;
+    height: 100%;
+    width: 0px;
+    bottom: -5px;
+    background-color: white;
+    transform: rotate(45deg);
+}
+.barcelona_page_top_other {
+    width: 100%;
+    height: 8px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_other_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_top_other_lineargradient {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,#154284 0,#cd122d);
+    position: absolute;
+}
+.barcelona_page_top_other_searchbar {
+    width: 100%;
+    height: 0px;
+    background-color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    overflow-y: hidden;
+    opacity: 0;
+    box-shadow: 0px 50px 100px 20px rgba(0, 0, 0, 0.7);
+}
+.barcelona_page_top_other_searchbar_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barcelona_page_top_other_searchbar_icon {
+    width: 32px;
+    height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_other_searchbar_container svg {
+    fill: #000;
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_other_searchbar_input {
+    width: 50%;
+    height: 23px;
+    background-color: transparent;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 192px;
+}
+.barcelona_page_top_other_searchbar_input_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_top_other_searchbar_input_container input {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-family: fcb-light, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    border: none;
+    font-size: 16px;
+    font-stretch: 100%;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: normal;
+    font-style: italic;
+    cursor: text;
+    text-align: start;
+    text-rendering: auto;
+    appearance: auto;
+    outline: none;
+}
+.barcelona_page_top_other_searchbar_submit {
+    height: 32px;
+    width: 100px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: 1px solid rgb(239, 239, 239);
+    cursor: pointer;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.barcelona_page_top_other_searchbar_submit_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-bottom-left-radius: 16px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-top-right-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.25s;
+}
+.barcelona_page_top_other_searchbar_submit_container span {
+    color: #222222;
+    font-size: 12px;
+    font-weight: 400;
+    font-family: fcb-regular, Arial, "Helvetica Neue", Helvetica, sans-serif;
+    transition: color 0.25s;
+}
+.barcelona_page_top_other_searchbar_submit_container:hover {
+    background-color: #154284;
+    color: white;
+    transition: background-color 0.25s;
+}
+.barcelona_page_top_other_searchbar_submit_container:hover span {
+    color: white;
+    transition: color 0.25s;
+}

@@ -1,0 +1,1124 @@
+@font-face {
+    font-family: fcb-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-extra-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Extrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-light;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-semi-bold;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Semibold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: fcb-regular;
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.eot');
+    src: url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff2') format('woff2'), url('../../../../../barcelona_fonts/FC_BARCELONA-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    resize: none;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+body {
+    width: 1920px;
+    height: auto;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.barcelona_page {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_container {
+    width: 1920px;
+    height: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle {
+    width: 1920px;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 128px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+    display: inline-block;
+}
+.barcelona_page_middle_container {
+    width: 1920px;
+    height: auto;
+    min-height: 1000px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: transparent;
+}
+.barcelona_page_middle_gamesandfeatures {
+    width: 1920px;
+    height: 621.33px;
+    background-color: #181733;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.barcelona_page_middle_gamesandfeatures_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 204px;
+    padding-right: 204px;
+}
+.barcelona_page_middle_gamesandfeatures_content {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 44px;
+    padding-left: 24px;
+    padding-right: 24px;
+    background-color: white;
+    border-bottom: 1px solid #efefef;
+}
+.barcelona_page_middle_gamesandfeatures_content_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_header {
+    width: 100%;
+    height: 74px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_header_conatiner {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_header_conatiner span {    
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+    font-size: 36px;
+    background-attachment: scroll;
+    background-clip: text;
+    background-color: rgba(0, 0, 0, 0);
+    background: linear-gradient(90deg,#cd122d,#154284);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features {
+    width: 1438px;
+    height: 471.33px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left {
+    width: 471.33px;
+    height: 471.33px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: none;
+    transition: 0.25s box-shadow;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px 2px;
+    transition: 0.25s box-shadow;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_image {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    background-image: url("../../../../../barcelona_images/images_index/index_middle/middle_gamesandfeatures/gamesandfeatures_whatsonthisweekend.jpg");
+    background-size: auto 100%;
+    transition: 0.5s background-size;
+    background-position: bottom;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_container:hover .barcelona_page_middle_gamesandfeatures_content_features_left_image {
+    background-size: auto 107%;
+    transition: 0.5s background-size;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_gradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg,rgba(24,23,51,0),rgba(24,23,51,.9));
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+    position: relative;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_text {
+    width: 399.328px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 44.391px;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_text_title {
+    width: 100%;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_text_title span {
+    width: 100%;
+    color: #fdc52c;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_text_description {
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    line-height: 18px;
+    transition: height 0.5s, opacity 0.5s;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_text_description span {
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_container:hover .barcelona_page_middle_gamesandfeatures_content_features_left_content_text_description {
+    opacity: 1;
+    height: 36px;
+    transition: height 0.5s, opacity 0.5s;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_category {
+    width: 399.328px;
+    height: 18.391px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_category_tag {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_category_tag span {
+    color: #fdc52c;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_category_tag_square {
+    width: 8px;
+    height: 8px;
+    background-color: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_category_time {
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_category_time svg {
+    width: 8px;
+    height: 8px;
+    fill: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_content_category_time span {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_sidebars {
+    width: 100%;
+    height: 100%;
+    /* background-color: violet; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_sidebars_left {
+    width: 22px;
+    height: 204px;
+    background-color: #154284;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    top: 110px;
+    left: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_left_sidebars_right {
+    width: 22px;
+    height: 144px;
+    background-color: #cd122d;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    top: 55px;
+    right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle {
+    width: 471.33px;
+    height: 471.33px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: none;
+    transition: 0.25s box-shadow;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px 2px;
+    transition: 0.25s box-shadow;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_image {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    background-image: url("../../../../../barcelona_images/images_index/index_middle/middle_gamesandfeatures/gamesandfeatures_allabouttheustour.jpg");
+    background-size: auto 100%;
+    transition: 0.5s background-size;
+    background-position: bottom;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_container:hover .barcelona_page_middle_gamesandfeatures_content_features_middle_image {
+    background-size: auto 107%;
+    transition: 0.5s background-size;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_gradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg,rgba(24,23,51,0),rgba(24,23,51,.9));
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+    position: relative;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_text {
+    width: 399.328px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 44.391px;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_text_title {
+    width: 100%;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_text_title span {
+    width: 100%;
+    color: #fdc52c;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_text_description {
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    line-height: 18px;
+    transition: height 0.5s, opacity 0.5s;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_text_description span {
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_container:hover .barcelona_page_middle_gamesandfeatures_content_features_middle_content_text_description {
+    opacity: 1;
+    height: 36px;
+    transition: height 0.5s, opacity 0.5s;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_category {
+    width: 399.328px;
+    height: 18.391px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_category_tag {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_category_tag span {
+    color: #fdc52c;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_category_tag_square {
+    width: 8px;
+    height: 8px;
+    background-color: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_category_time {
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_category_time svg {
+    width: 8px;
+    height: 8px;
+    fill: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_content_category_time span {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_sidebars {
+    width: 100%;
+    height: 100%;
+    /* background-color: violet; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_sidebars_left {
+    width: 22px;
+    height: 204px;
+    background-color: #154284;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    top: 110px;
+    left: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_middle_sidebars_right {
+    width: 22px;
+    height: 144px;
+    background-color: #cd122d;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    top: 55px;
+    right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right {
+    width: 471.33px;
+    height: 471.33px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    box-shadow: none;
+    transition: 0.25s box-shadow;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right:hover {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 20px 2px;
+    transition: 0.25s box-shadow;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_container {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: relative;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_image {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    background-image: url("../../../../../barcelona_images/images_index/index_middle/middle_gamesandfeatures/gamesandfeatures_barcainsandouts.jpg");
+    background-size: auto 100%;
+    transition: 0.5s background-size;
+    background-position: bottom;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_container:hover .barcelona_page_middle_gamesandfeatures_content_features_right_image {
+    background-size: auto 107%;
+    transition: 0.5s background-size;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_gradient {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(180deg,rgba(24,23,51,0),rgba(24,23,51,.9));
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_container {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 36px;
+    padding-right: 36px;
+    position: relative;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_text {
+    width: 399.328px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 44.391px;
+    overflow-y: hidden;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_text_title {
+    width: 100%;    
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_text_title span {
+    width: 100%;
+    color: #fdc52c;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: fcb-extra-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_text_description {
+    width: 100%;
+    height: 0px;
+    opacity: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    line-height: 18px;
+    transition: height 0.5s, opacity 0.5s;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_text_description span {
+    width: 100%;
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_container:hover .barcelona_page_middle_gamesandfeatures_content_features_right_content_text_description {
+    opacity: 1;
+    height: 36px;
+    transition: height 0.5s, opacity 0.5s;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_category {
+    width: 399.328px;
+    height: 18.391px;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+    bottom: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_category_tag {
+    width: auto;
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_category_tag span {
+    color: #fdc52c;
+    font-size: 12px;
+    font-weight: 400;
+    text-transform: uppercase;
+    vertical-align: middle;
+    font-family: fcb-bold,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_category_tag_square {
+    width: 8px;
+    height: 8px;
+    background-color: #fdc52c;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_category_time {
+    height: 100%;
+    background-color: transparent;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    align-items: center;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_category_time svg {
+    width: 8px;
+    height: 8px;
+    fill: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 2px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_content_category_time span {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    font-family: fcb-regular,Arial,Helvetica Neue,Helvetica,sans-serif;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_sidebars {
+    width: 100%;
+    height: 100%;
+    /* background-color: violet; */
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    position: absolute;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_sidebars_left {
+    width: 22px;
+    height: 204px;
+    background-color: #154284;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    top: 110px;
+    left: 0px;
+}
+.barcelona_page_middle_gamesandfeatures_content_features_right_sidebars_right {
+    width: 22px;
+    height: 144px;
+    background-color: #cd122d;
+    position: absolute;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    top: 55px;
+    right: 0px;
+}
